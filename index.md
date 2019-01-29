@@ -1,3 +1,0 @@
-## Greg Knoblauch
-
-### About Me
