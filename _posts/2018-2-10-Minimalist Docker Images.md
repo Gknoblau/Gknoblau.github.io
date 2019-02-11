@@ -3,9 +3,6 @@ layout: post
 title: Minimalist Docker Images
 ---
 
-
-# Minimalist Docker Images
-
 There seems to be a lot of buzz lately around clearing out junk you don't need. Netflix's latest hit Tidying Up with Marie Kondo focuses on discarding things that don't give you joy.
 
 We should apply the same concept when building our docker images.
