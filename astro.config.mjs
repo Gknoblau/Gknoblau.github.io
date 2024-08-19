@@ -1,6 +1,9 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+<<<<<<< Updated upstream
 import netlify from "@astrojs/netlify";
+=======
+>>>>>>> Stashed changes
 import robotsTxt from "astro-robots-txt";
 import UnoCSS from "@unocss/astro";
 import icon from "astro-icon";
@@ -29,8 +32,12 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
+<<<<<<< Updated upstream
   output: "server",
   adapter: netlify({ edgeMiddleware: true }),
+=======
+  output: "static",
+>>>>>>> Stashed changes
   vite: {
     assetsInclude: "**/*.riv",
   },
